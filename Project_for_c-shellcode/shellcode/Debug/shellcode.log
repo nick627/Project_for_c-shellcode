@@ -1,0 +1,18 @@
+﻿  Assembling src_shellcode_data_dll.asm...
+  Assembling src_shellcode_data_functions.asm...
+  Assembling src_xor_decoder.asm...
+  src_shellcode.c
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_shellcode.c(69): warning C4028: формальный параметр 1 отличается от объявления
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_shellcode.c(69): warning C4047: =: "f_free" отличается по уровням косвенного обращения от "f_malloc"
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_shellcode.c(81): warning C4047: инициализация: "FILE *" отличается по уровням косвенного обращения от "int"
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_shellcode.c(87): warning C4101: j: неиспользованная локальная переменная
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_shellcode.c(226): warning C4101: pimg: неиспользованная локальная переменная
+  src_main.c
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_main.c(116): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_main.c(116): warning C4024: CreateFileA: различные типы для формального и фактического параметров 6
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_main.c(199): warning C4276: xor_decoder: нет прототипа; предполагается отсутствие параметров
+c:\users\nick\downloads\models\3\project_for_c-shellcode\shellcode\src_main.c(199): warning C4276: xor_decoder_end: нет прототипа; предполагается отсутствие параметров
+  Создание кода...
+src_main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/OPT:LBR"
+  shellcode.vcxproj -> C:\Users\Nick\Downloads\Models\3\Project_for_c-shellcode\Debug\shellcode.exe
+  shellcode.vcxproj -> C:\Users\Nick\Downloads\Models\3\Project_for_c-shellcode\Debug\shellcode.pdb (Full PDB)
